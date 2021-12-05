@@ -1,0 +1,94 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				263,
+				556
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "Shield spin",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			],
+			"name": "Shield Spin Agro"
+		},
+		{
+			"offsets": [
+				60,
+				320
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "Scream",
+			"indices": [],
+			"name": "Whitty scream Agro"
+		},
+		{
+			"offsets": [
+				40,
+				458
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Idle Agro"
+		},
+		{
+			"offsets": [
+				37,
+				457
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "Cold Down",
+			"indices": [],
+			"name": "Cold Down Agro"
+		},
+		{
+			"offsets": [
+				185,
+				455
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "Click",
+			"loop": false,
+			"name": "Click Agro0"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/WhittyExtra",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "whitty",
+	"flip_x": false,
+	"healthbar_colors": [
+		49,
+		40,
+		40
+	],
+	"camera_position": [
+		-162,
+		-511
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				270,
+				443
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Sing Left Agro0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				114,
+				444
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Sing Down Agro",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				108,
+				572
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Up Agro0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				38,
+				454
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Sing Right Agro0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				43,
+				457
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Idle Agro0"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/WhittyShield",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "whitty",
+	"flip_x": false,
+	"healthbar_colors": [
+		49,
+		40,
+		40
+	],
+	"camera_position": [
+		-170,
+		-508
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

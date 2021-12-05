@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BF Flame.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BF Flame Boom0000" x="0" y="0" width="473" height="445" frameX="0" frameY="-18" frameWidth="484" frameHeight="464"/>
+	<SubTexture name="BF Flame Boom0001" x="473" y="0" width="457" height="452" frameX="-21" frameY="-12" frameWidth="484" frameHeight="464"/>
+	<SubTexture name="BF Flame Boom0002" x="930" y="0" width="458" height="454" frameX="-23" frameY="-10" frameWidth="484" frameHeight="464"/>
+	<SubTexture name="BF Flame Boom0003" x="1388" y="0" width="457" height="451" frameX="-27" frameY="-12" frameWidth="484" frameHeight="464"/>
+	<SubTexture name="BF Flame Boom0004" x="1388" y="0" width="457" height="451" frameX="-27" frameY="-12" frameWidth="484" frameHeight="464"/>
+	<SubTexture name="BF Flame Boom0005" x="1845" y="0" width="441" height="455" frameX="-42" frameY="-7" frameWidth="484" frameHeight="464"/>
+	<SubTexture name="BF Flame Boom0006" x="1845" y="0" width="441" height="455" frameX="-42" frameY="-7" frameWidth="484" frameHeight="464"/>
+	<SubTexture name="BF Flame Boom0007" x="2286" y="0" width="428" height="462" frameX="-34" frameY="-1" frameWidth="484" frameHeight="464"/>
+	<SubTexture name="BF Flame Boom0008" x="2714" y="0" width="429" height="462" frameX="-34" frameY="-1" frameWidth="484" frameHeight="464"/>
+	<SubTexture name="BF Flame Boom0009" x="3143" y="0" width="442" height="462" frameX="-21" frameY="0" frameWidth="484" frameHeight="464"/>
+	<SubTexture name="BF Flame Boom0010" x="3585" y="0" width="441" height="462" frameX="-21" frameY="0" frameWidth="484" frameHeight="464"/>
+	<SubTexture name="BF Flame Boom0011" x="4026" y="0" width="439" height="461" frameX="-23" frameY="-1" frameWidth="484" frameHeight="464"/>
+	<SubTexture name="BF Flame Boom0012" x="4465" y="0" width="443" height="461" frameX="-23" frameY="-1" frameWidth="484" frameHeight="464"/>
+	<SubTexture name="BF Flame Boom0013" x="4908" y="0" width="424" height="416" frameX="-42" frameY="-46" frameWidth="484" frameHeight="464"/>
+	<SubTexture name="BF Flame Boom0014" x="5332" y="0" width="420" height="416" frameX="-40" frameY="-46" frameWidth="484" frameHeight="464"/>
+	<SubTexture name="BF Flame Boom0015" x="5752" y="0" width="423" height="416" frameX="-37" frameY="-46" frameWidth="484" frameHeight="464"/>
+	<SubTexture name="BF Flame Flamewall0000" x="6175" y="0" width="646" height="577" frameX="-2" frameY="-293" frameWidth="775" frameHeight="958"/>
+	<SubTexture name="BF Flame Flamewall0001" x="6821" y="0" width="700" height="909" frameX="-12" frameY="-2" frameWidth="775" frameHeight="958"/>
+	<SubTexture name="BF Flame Flamewall0002" x="0" y="909" width="760" height="943" frameX="0" frameY="-2" frameWidth="775" frameHeight="958"/>
+	<SubTexture name="BF Flame Flamewall0003" x="760" y="909" width="774" height="953" frameX="0" frameY="-2" frameWidth="775" frameHeight="958"/>
+	<SubTexture name="BF Flame Flamewall0004" x="1534" y="909" width="774" height="958" frameX="-1" frameY="0" frameWidth="775" frameHeight="958"/>
+	<SubTexture name="BF Flame Flamewall0005" x="2308" y="909" width="769" height="949" frameX="-1" frameY="0" frameWidth="775" frameHeight="958"/>
+	<SubTexture name="BF Flame Flamewall0006" x="3077" y="909" width="766" height="935" frameX="0" frameY="0" frameWidth="775" frameHeight="958"/>
+	<SubTexture name="BF Flame Flamewall0007" x="3843" y="909" width="706" height="929" frameX="0" frameY="0" frameWidth="775" frameHeight="958"/>
+	<SubTexture name="BF Flame Flamewall0008" x="4549" y="909" width="682" height="869" frameX="0" frameY="0" frameWidth="775" frameHeight="958"/>
+	<SubTexture name="BF Flame Flamewall0009" x="6444" y="4478" width="406" height="407" frameX="-276" frameY="-453" frameWidth="606" frameHeight="660"/>
+	<SubTexture name="BF Flame Flamewall0010" x="6850" y="4478" width="406" height="407" frameX="-276" frameY="-453" frameWidth="606" frameHeight="660"/>
+	<SubTexture name="BF Flame Flamewall0011" x="5231" y="909" width="681" height="869" frameX="-1" frameY="0" frameWidth="775" frameHeight="958"/>
+	<SubTexture name="BF Flame Flamewall0012" x="5912" y="909" width="681" height="869" frameX="-1" frameY="0" frameWidth="775" frameHeight="958"/>
+	<SubTexture name="BF Flame Flamewall0013" x="7662" y="4478" width="409" height="411" frameX="-273" frameY="-449" frameWidth="606" frameHeight="660"/>
+	<SubTexture name="BF Flame Flamewall0014" x="0" y="5135" width="409" height="411" frameX="-273" frameY="-449" frameWidth="606" frameHeight="660"/>
+	<SubTexture name="BF Flame Flamewall0015" x="6593" y="909" width="671" height="869" frameX="0" frameY="0" frameWidth="775" frameHeight="958"/>
+	<SubTexture name="BF Flame Flamewall0016" x="7264" y="909" width="671" height="869" frameX="0" frameY="0" frameWidth="775" frameHeight="958"/>
+	<SubTexture name="BF Flame Flamewall0017" x="1231" y="5135" width="423" height="415" frameX="-250" frameY="-449" frameWidth="606" frameHeight="660"/>
+	<SubTexture name="BF Flame Flamewall0018" x="1654" y="5135" width="426" height="415" frameX="-247" frameY="-449" frameWidth="606" frameHeight="660"/>
+	<SubTexture name="BF Flame Flamewall0019" x="2080" y="5135" width="427" height="415" frameX="-246" frameY="-449" frameWidth="606" frameHeight="660"/>
+	<SubTexture name="BF Flame Flamewall0020" x="2507" y="5135" width="427" height="415" frameX="-246" frameY="-449" frameWidth="606" frameHeight="660"/>
+	<SubTexture name="BF Flame Idle0000" x="0" y="1867" width="434" height="403" frameX="0" frameY="-12" frameWidth="438" frameHeight="416"/>
+	<SubTexture name="BF Flame Idle0001" x="434" y="1867" width="434" height="403" frameX="0" frameY="-12" frameWidth="438" frameHeight="416"/>
+	<SubTexture name="BF Flame Idle0002" x="868" y="1867" width="428" height="401" frameX="-4" frameY="-14" frameWidth="438" frameHeight="416"/>
+	<SubTexture name="BF Flame Idle0003" x="1296" y="1867" width="428" height="401" frameX="-4" frameY="-14" frameWidth="438" frameHeight="416"/>
+	<SubTexture name="BF Flame Idle0004" x="1724" y="1867" width="424" height="404" frameX="-8" frameY="-12" frameWidth="438" frameHeight="416"/>
+	<SubTexture name="BF Flame Idle0005" x="2148" y="1867" width="424" height="404" frameX="-8" frameY="-12" frameWidth="438" frameHeight="416"/>
+	<SubTexture name="BF Flame Idle0006" x="2572" y="1867" width="428" height="407" frameX="-10" frameY="-9" frameWidth="438" frameHeight="416"/>
+	<SubTexture name="BF Flame Idle0007" x="3000" y="1867" width="428" height="407" frameX="-10" frameY="-9" frameWidth="438" frameHeight="416"/>
+	<SubTexture name="BF Flame Idle0008" x="3428" y="1867" width="396" height="413" frameX="-38" frameY="-3" frameWidth="438" frameHeight="416"/>
+	<SubTexture name="BF Flame Idle0009" x="3428" y="1867" width="396" height="413" frameX="-38" frameY="-3" frameWidth="438" frameHeight="416"/>
+	<SubTexture name="BF Flame Idle0010" x="3824" y="1867" width="398" height="416" frameX="-38" frameY="0" frameWidth="438" frameHeight="416"/>
+	<SubTexture name="BF Flame Idle0011" x="3824" y="1867" width="398" height="416" frameX="-38" frameY="0" frameWidth="438" frameHeight="416"/>
+	<SubTexture name="BF Flame Idle0012" x="4222" y="1867" width="399" height="416" frameX="-38" frameY="0" frameWidth="438" frameHeight="416"/>
+	<SubTexture name="BF Flame Idle0013" x="4222" y="1867" width="399" height="416" frameX="-38" frameY="0" frameWidth="438" frameHeight="416"/>
+	<SubTexture name="BF Flame Idle0014" x="4621" y="1867" width="398" height="416" frameX="-38" frameY="0" frameWidth="438" frameHeight="416"/>
+	<SubTexture name="BF Flame Idle0015" x="4621" y="1867" width="398" height="416" frameX="-38" frameY="0" frameWidth="438" frameHeight="416"/>
+	<SubTexture name="BF Flame Powerup0000" x="5019" y="1867" width="388" height="421" frameX="-130" frameY="-224" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup0001" x="5407" y="1867" width="382" height="436" frameX="-130" frameY="-211" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup0002" x="5407" y="1867" width="382" height="436" frameX="-130" frameY="-211" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup0003" x="5789" y="1867" width="381" height="439" frameX="-130" frameY="-208" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup0004" x="5789" y="1867" width="381" height="439" frameX="-130" frameY="-208" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup0005" x="6170" y="1867" width="384" height="432" frameX="-130" frameY="-215" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup0006" x="6170" y="1867" width="384" height="432" frameX="-130" frameY="-215" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup0007" x="6554" y="1867" width="384" height="414" frameX="-130" frameY="-231" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup0008" x="6938" y="1867" width="483" height="560" frameX="-57" frameY="-95" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup0009" x="6938" y="1867" width="483" height="560" frameX="-57" frameY="-95" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup0010" x="7421" y="1867" width="575" height="627" frameX="-28" frameY="-53" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup0011" x="0" y="2494" width="575" height="627" frameX="-28" frameY="-53" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup0012" x="575" y="2494" width="611" height="657" frameX="-13" frameY="-24" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup0013" x="1186" y="2494" width="611" height="657" frameX="-13" frameY="-24" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup0014" x="1797" y="2494" width="627" height="689" frameX="-3" frameY="-4" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup0015" x="1797" y="2494" width="627" height="689" frameX="-3" frameY="-4" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup0016" x="2424" y="2494" width="627" height="697" frameX="-3" frameY="0" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup0017" x="2424" y="2494" width="627" height="697" frameX="-3" frameY="0" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup0018" x="3051" y="2494" width="631" height="696" frameX="0" frameY="-1" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup0019" x="3682" y="2494" width="631" height="696" frameX="0" frameY="-1" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup0020" x="4313" y="2494" width="427" height="402" frameX="-93" frameY="-246" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup0021" x="4313" y="2494" width="427" height="402" frameX="-93" frameY="-246" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup0022" x="4740" y="2494" width="427" height="402" frameX="-94" frameY="-246" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup0023" x="5167" y="2494" width="427" height="402" frameX="-94" frameY="-246" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup v20000" x="5594" y="2494" width="411" height="421" frameX="-130" frameY="-224" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup v20001" x="6005" y="2494" width="408" height="436" frameX="-130" frameY="-211" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup v20002" x="6005" y="2494" width="408" height="436" frameX="-130" frameY="-211" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup v20003" x="6413" y="2494" width="407" height="439" frameX="-130" frameY="-208" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup v20004" x="6413" y="2494" width="407" height="439" frameX="-130" frameY="-208" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup v20005" x="6820" y="2494" width="408" height="432" frameX="-130" frameY="-215" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup v20006" x="6820" y="2494" width="408" height="432" frameX="-130" frameY="-215" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup v20007" x="7228" y="2494" width="404" height="414" frameX="-130" frameY="-231" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup v20008" x="6938" y="1867" width="483" height="560" frameX="-57" frameY="-95" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup v20009" x="6938" y="1867" width="483" height="560" frameX="-57" frameY="-95" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup v20010" x="7421" y="1867" width="575" height="627" frameX="-28" frameY="-53" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup v20011" x="0" y="2494" width="575" height="627" frameX="-28" frameY="-53" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup v20012" x="575" y="2494" width="611" height="657" frameX="-13" frameY="-24" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup v20013" x="1186" y="2494" width="611" height="657" frameX="-13" frameY="-24" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup v20014" x="1797" y="2494" width="627" height="689" frameX="-3" frameY="-4" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup v20015" x="1797" y="2494" width="627" height="689" frameX="-3" frameY="-4" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup v20016" x="2424" y="2494" width="627" height="697" frameX="-3" frameY="0" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup v20017" x="2424" y="2494" width="627" height="697" frameX="-3" frameY="0" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup v20018" x="3051" y="2494" width="631" height="696" frameX="0" frameY="-1" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup v20019" x="3682" y="2494" width="631" height="696" frameX="0" frameY="-1" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup v20020" x="4313" y="2494" width="427" height="402" frameX="-93" frameY="-246" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup v20021" x="4313" y="2494" width="427" height="402" frameX="-93" frameY="-246" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup v20022" x="4740" y="2494" width="427" height="402" frameX="-94" frameY="-246" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Powerup v20023" x="5167" y="2494" width="427" height="402" frameX="-94" frameY="-246" frameWidth="631" frameHeight="697"/>
+	<SubTexture name="BF Flame Sing Down0000" x="7632" y="2494" width="525" height="424" frameX="0" frameY="0" frameWidth="529" frameHeight="427"/>
+	<SubTexture name="BF Flame Sing Down0001" x="0" y="3191" width="518" height="351" frameX="-7" frameY="-72" frameWidth="529" frameHeight="427"/>
+	<SubTexture name="BF Flame Sing Down0002" x="518" y="3191" width="518" height="348" frameX="-11" frameY="-74" frameWidth="529" frameHeight="427"/>
+	<SubTexture name="BF Flame Sing Down0003" x="1036" y="3191" width="510" height="348" frameX="-12" frameY="-74" frameWidth="529" frameHeight="427"/>
+	<SubTexture name="BF Flame Sing Down0004" x="1546" y="3191" width="512" height="348" frameX="-12" frameY="-74" frameWidth="529" frameHeight="427"/>
+	<SubTexture name="BF Flame Sing Down0005" x="2058" y="3191" width="510" height="357" frameX="-7" frameY="-66" frameWidth="529" frameHeight="427"/>
+	<SubTexture name="BF Flame Sing Down0006" x="2568" y="3191" width="505" height="357" frameX="-7" frameY="-66" frameWidth="529" frameHeight="427"/>
+	<SubTexture name="BF Flame Sing Down0007" x="3073" y="3191" width="493" height="411" frameX="-2" frameY="-16" frameWidth="529" frameHeight="427"/>
+	<SubTexture name="BF Flame Sing Down0008" x="3073" y="3191" width="493" height="411" frameX="-2" frameY="-16" frameWidth="529" frameHeight="427"/>
+	<SubTexture name="BF Flame Sing Down0009" x="3566" y="3191" width="491" height="416" frameX="-3" frameY="-11" frameWidth="529" frameHeight="427"/>
+	<SubTexture name="BF Flame Sing Down0010" x="3566" y="3191" width="491" height="416" frameX="-3" frameY="-11" frameWidth="529" frameHeight="427"/>
+	<SubTexture name="BF Flame Sing Down0011" x="4057" y="3191" width="486" height="416" frameX="-12" frameY="-11" frameWidth="529" frameHeight="427"/>
+	<SubTexture name="BF Flame Sing Down0012" x="4543" y="3191" width="486" height="416" frameX="-12" frameY="-11" frameWidth="529" frameHeight="427"/>
+	<SubTexture name="BF Flame Sing Down0013" x="5029" y="3191" width="420" height="416" frameX="-72" frameY="-11" frameWidth="529" frameHeight="427"/>
+	<SubTexture name="BF Flame Sing Down0014" x="5449" y="3191" width="423" height="416" frameX="-69" frameY="-11" frameWidth="529" frameHeight="427"/>
+	<SubTexture name="BF Flame Sing Down0015" x="5872" y="3191" width="426" height="416" frameX="-68" frameY="-11" frameWidth="529" frameHeight="427"/>
+	<SubTexture name="BF Flame Sing Left0000" x="6298" y="3191" width="403" height="411" frameX="0" frameY="-5" frameWidth="486" frameHeight="416"/>
+	<SubTexture name="BF Flame Sing Left0001" x="6701" y="3191" width="438" height="409" frameX="-16" frameY="-7" frameWidth="486" frameHeight="416"/>
+	<SubTexture name="BF Flame Sing Left0002" x="7139" y="3191" width="443" height="406" frameX="-30" frameY="-10" frameWidth="486" frameHeight="416"/>
+	<SubTexture name="BF Flame Sing Left0003" x="7582" y="3191" width="453" height="404" frameX="-33" frameY="-12" frameWidth="486" frameHeight="416"/>
+	<SubTexture name="BF Flame Sing Left0004" x="7582" y="3191" width="453" height="404" frameX="-33" frameY="-12" frameWidth="486" frameHeight="416"/>
+	<SubTexture name="BF Flame Sing Left0005" x="0" y="3607" width="426" height="404" frameX="-43" frameY="-12" frameWidth="486" frameHeight="416"/>
+	<SubTexture name="BF Flame Sing Left0006" x="0" y="3607" width="426" height="404" frameX="-43" frameY="-12" frameWidth="486" frameHeight="416"/>
+	<SubTexture name="BF Flame Sing Left0007" x="426" y="3607" width="400" height="413" frameX="-60" frameY="-3" frameWidth="486" frameHeight="416"/>
+	<SubTexture name="BF Flame Sing Left0008" x="826" y="3607" width="397" height="413" frameX="-60" frameY="-3" frameWidth="486" frameHeight="416"/>
+	<SubTexture name="BF Flame Sing Left0009" x="1223" y="3607" width="397" height="416" frameX="-60" frameY="0" frameWidth="486" frameHeight="416"/>
+	<SubTexture name="BF Flame Sing Left0010" x="1620" y="3607" width="426" height="416" frameX="-34" frameY="0" frameWidth="486" frameHeight="416"/>
+	<SubTexture name="BF Flame Sing Left0011" x="2046" y="3607" width="426" height="416" frameX="-34" frameY="0" frameWidth="486" frameHeight="416"/>
+	<SubTexture name="BF Flame Sing Left0012" x="2472" y="3607" width="421" height="416" frameX="-34" frameY="0" frameWidth="486" frameHeight="416"/>
+	<SubTexture name="BF Flame Sing Left0013" x="2893" y="3607" width="421" height="416" frameX="-34" frameY="0" frameWidth="486" frameHeight="416"/>
+	<SubTexture name="BF Flame Sing Left0014" x="3314" y="3607" width="424" height="416" frameX="-34" frameY="0" frameWidth="486" frameHeight="416"/>
+	<SubTexture name="BF Flame Sing Left0015" x="3738" y="3607" width="424" height="416" frameX="-34" frameY="0" frameWidth="486" frameHeight="416"/>
+	<SubTexture name="BF Flame Sing Right0000" x="4162" y="3607" width="420" height="409" frameX="-29" frameY="-7" frameWidth="451" frameHeight="416"/>
+	<SubTexture name="BF Flame Sing Right0001" x="4582" y="3607" width="422" height="405" frameX="-29" frameY="-11" frameWidth="451" frameHeight="416"/>
+	<SubTexture name="BF Flame Sing Right0002" x="5004" y="3607" width="421" height="403" frameX="-28" frameY="-13" frameWidth="451" frameHeight="416"/>
+	<SubTexture name="BF Flame Sing Right0003" x="5425" y="3607" width="414" height="403" frameX="-28" frameY="-13" frameWidth="451" frameHeight="416"/>
+	<SubTexture name="BF Flame Sing Right0004" x="5425" y="3607" width="414" height="403" frameX="-28" frameY="-13" frameWidth="451" frameHeight="416"/>
+	<SubTexture name="BF Flame Sing Right0005" x="5839" y="3607" width="406" height="407" frameX="-27" frameY="-9" frameWidth="451" frameHeight="416"/>
+	<SubTexture name="BF Flame Sing Right0006" x="5839" y="3607" width="406" height="407" frameX="-27" frameY="-9" frameWidth="451" frameHeight="416"/>
+	<SubTexture name="BF Flame Sing Right0007" x="6245" y="3607" width="394" height="415" frameX="-26" frameY="-1" frameWidth="451" frameHeight="416"/>
+	<SubTexture name="BF Flame Sing Right0008" x="6639" y="3607" width="394" height="415" frameX="-26" frameY="-1" frameWidth="451" frameHeight="416"/>
+	<SubTexture name="BF Flame Sing Right0009" x="7033" y="3607" width="398" height="416" frameX="-26" frameY="0" frameWidth="451" frameHeight="416"/>
+	<SubTexture name="BF Flame Sing Right0010" x="7431" y="3607" width="397" height="416" frameX="-26" frameY="0" frameWidth="451" frameHeight="416"/>
+	<SubTexture name="BF Flame Sing Right0011" x="0" y="4023" width="398" height="416" frameX="-26" frameY="0" frameWidth="451" frameHeight="416"/>
+	<SubTexture name="BF Flame Sing Right0012" x="398" y="4023" width="428" height="416" frameX="0" frameY="0" frameWidth="451" frameHeight="416"/>
+	<SubTexture name="BF Flame Sing Right0013" x="826" y="4023" width="428" height="416" frameX="0" frameY="0" frameWidth="451" frameHeight="416"/>
+	<SubTexture name="BF Flame Sing Right0014" x="1254" y="4023" width="422" height="416" frameX="0" frameY="0" frameWidth="451" frameHeight="416"/>
+	<SubTexture name="BF Flame Sing Right0015" x="1676" y="4023" width="422" height="416" frameX="0" frameY="0" frameWidth="451" frameHeight="416"/>
+	<SubTexture name="BF Flame Sing Up0000" x="2098" y="4023" width="473" height="445" frameX="0" frameY="-18" frameWidth="484" frameHeight="464"/>
+	<SubTexture name="BF Flame Sing Up0001" x="2571" y="4023" width="457" height="452" frameX="-21" frameY="-12" frameWidth="484" frameHeight="464"/>
+	<SubTexture name="BF Flame Sing Up0002" x="3028" y="4023" width="458" height="454" frameX="-23" frameY="-10" frameWidth="484" frameHeight="464"/>
+	<SubTexture name="BF Flame Sing Up0003" x="3486" y="4023" width="457" height="451" frameX="-27" frameY="-12" frameWidth="484" frameHeight="464"/>
+	<SubTexture name="BF Flame Sing Up0004" x="3486" y="4023" width="457" height="451" frameX="-27" frameY="-12" frameWidth="484" frameHeight="464"/>
+	<SubTexture name="BF Flame Sing Up0005" x="3943" y="4023" width="441" height="455" frameX="-42" frameY="-7" frameWidth="484" frameHeight="464"/>
+	<SubTexture name="BF Flame Sing Up0006" x="3943" y="4023" width="441" height="455" frameX="-42" frameY="-7" frameWidth="484" frameHeight="464"/>
+	<SubTexture name="BF Flame Sing Up0007" x="2286" y="0" width="428" height="462" frameX="-34" frameY="-1" frameWidth="484" frameHeight="464"/>
+	<SubTexture name="BF Flame Sing Up0008" x="2714" y="0" width="429" height="462" frameX="-34" frameY="-1" frameWidth="484" frameHeight="464"/>
+	<SubTexture name="BF Flame Sing Up0009" x="3143" y="0" width="442" height="462" frameX="-21" frameY="0" frameWidth="484" frameHeight="464"/>
+	<SubTexture name="BF Flame Sing Up0010" x="3585" y="0" width="441" height="462" frameX="-21" frameY="0" frameWidth="484" frameHeight="464"/>
+	<SubTexture name="BF Flame Sing Up0011" x="4026" y="0" width="439" height="461" frameX="-23" frameY="-1" frameWidth="484" frameHeight="464"/>
+	<SubTexture name="BF Flame Sing Up0012" x="4465" y="0" width="443" height="461" frameX="-23" frameY="-1" frameWidth="484" frameHeight="464"/>
+	<SubTexture name="BF Flame Sing Up0013" x="4908" y="0" width="424" height="416" frameX="-42" frameY="-46" frameWidth="484" frameHeight="464"/>
+	<SubTexture name="BF Flame Sing Up0014" x="5332" y="0" width="420" height="416" frameX="-40" frameY="-46" frameWidth="484" frameHeight="464"/>
+	<SubTexture name="BF Flame Sing Up0015" x="5752" y="0" width="423" height="416" frameX="-37" frameY="-46" frameWidth="484" frameHeight="464"/>
+	<SubTexture name="BF Flame click0000" x="4384" y="4023" width="409" height="409" frameX="-29" frameY="-8" frameWidth="441" frameHeight="417"/>
+	<SubTexture name="BF Flame click0001" x="4793" y="4023" width="434" height="403" frameX="0" frameY="-13" frameWidth="441" frameHeight="417"/>
+	<SubTexture name="BF Flame click0002" x="5227" y="4023" width="435" height="403" frameX="0" frameY="-13" frameWidth="441" frameHeight="417"/>
+	<SubTexture name="BF Flame click0003" x="5662" y="4023" width="420" height="412" frameX="-11" frameY="-5" frameWidth="441" frameHeight="417"/>
+	<SubTexture name="BF Flame click0004" x="6082" y="4023" width="421" height="412" frameX="-10" frameY="-5" frameWidth="441" frameHeight="417"/>
+	<SubTexture name="BF Flame click0005" x="6503" y="4023" width="427" height="417" frameX="-9" frameY="0" frameWidth="441" frameHeight="417"/>
+	<SubTexture name="BF Flame click0006" x="6930" y="4023" width="422" height="417" frameX="-14" frameY="0" frameWidth="441" frameHeight="417"/>
+	<SubTexture name="BF Flame click0007" x="7352" y="4023" width="423" height="417" frameX="-14" frameY="0" frameWidth="441" frameHeight="417"/>
+	<SubTexture name="BF Flame click0008" x="7352" y="4023" width="423" height="417" frameX="-14" frameY="0" frameWidth="441" frameHeight="417"/>
+	<SubTexture name="BF Flame click0009" x="0" y="4478" width="423" height="417" frameX="-14" frameY="0" frameWidth="441" frameHeight="417"/>
+	<SubTexture name="BF Flame click0010" x="0" y="4478" width="423" height="417" frameX="-14" frameY="0" frameWidth="441" frameHeight="417"/>
+	<SubTexture name="BF Flame click0011" x="423" y="4478" width="403" height="417" frameX="-38" frameY="0" frameWidth="441" frameHeight="417"/>
+	<SubTexture name="BF Flame click0012" x="423" y="4478" width="403" height="417" frameX="-38" frameY="0" frameWidth="441" frameHeight="417"/>
+	<SubTexture name="BF Flame click0013" x="826" y="4478" width="396" height="417" frameX="-38" frameY="0" frameWidth="441" frameHeight="417"/>
+	<SubTexture name="BF Flame click0014" x="826" y="4478" width="396" height="417" frameX="-38" frameY="0" frameWidth="441" frameHeight="417"/>
+	<SubTexture name="BF Flame click0015" x="1222" y="4478" width="398" height="417" frameX="-38" frameY="0" frameWidth="441" frameHeight="417"/>
+	<SubTexture name="BF Flame crit0000" x="1620" y="4478" width="481" height="505" frameX="-3" frameY="-67" frameWidth="606" frameHeight="660"/>
+	<SubTexture name="BF Flame crit0001" x="2101" y="4478" width="546" height="581" frameX="-2" frameY="-32" frameWidth="606" frameHeight="660"/>
+	<SubTexture name="BF Flame crit0002" x="2647" y="4478" width="590" height="637" frameX="-1" frameY="-10" frameWidth="606" frameHeight="660"/>
+	<SubTexture name="BF Flame crit0003" x="3237" y="4478" width="605" height="657" frameX="0" frameY="0" frameWidth="606" frameHeight="660"/>
+	<SubTexture name="BF Flame crit0004" x="3842" y="4478" width="601" height="643" frameX="-5" frameY="-17" frameWidth="606" frameHeight="660"/>
+	<SubTexture name="BF Flame crit0005" x="4443" y="4478" width="564" height="612" frameX="-37" frameY="-39" frameWidth="606" frameHeight="660"/>
+	<SubTexture name="BF Flame crit0006" x="5007" y="4478" width="545" height="597" frameX="-52" frameY="-40" frameWidth="606" frameHeight="660"/>
+	<SubTexture name="BF Flame crit0007" x="5552" y="4478" width="486" height="594" frameX="-51" frameY="-37" frameWidth="606" frameHeight="660"/>
+	<SubTexture name="BF Flame crit0008" x="6038" y="4478" width="406" height="397" frameX="-112" frameY="-145" frameWidth="606" frameHeight="660"/>
+	<SubTexture name="BF Flame crit0009" x="6444" y="4478" width="406" height="407" frameX="-112" frameY="-135" frameWidth="606" frameHeight="660"/>
+	<SubTexture name="BF Flame crit0010" x="6850" y="4478" width="406" height="407" frameX="-112" frameY="-135" frameWidth="606" frameHeight="660"/>
+	<SubTexture name="BF Flame crit0011" x="6850" y="4478" width="406" height="407" frameX="-112" frameY="-135" frameWidth="606" frameHeight="660"/>
+	<SubTexture name="BF Flame crit0012" x="7256" y="4478" width="406" height="404" frameX="-112" frameY="-138" frameWidth="606" frameHeight="660"/>
+	<SubTexture name="BF Flame crit0013" x="7662" y="4478" width="409" height="411" frameX="-109" frameY="-131" frameWidth="606" frameHeight="660"/>
+	<SubTexture name="BF Flame crit0014" x="0" y="5135" width="409" height="411" frameX="-109" frameY="-131" frameWidth="606" frameHeight="660"/>
+	<SubTexture name="BF Flame crit0015" x="409" y="5135" width="404" height="415" frameX="-103" frameY="-131" frameWidth="606" frameHeight="660"/>
+	<SubTexture name="BF Flame crit0016" x="813" y="5135" width="418" height="415" frameX="-89" frameY="-131" frameWidth="606" frameHeight="660"/>
+	<SubTexture name="BF Flame crit0017" x="1231" y="5135" width="423" height="415" frameX="-86" frameY="-131" frameWidth="606" frameHeight="660"/>
+	<SubTexture name="BF Flame crit0018" x="1654" y="5135" width="426" height="415" frameX="-83" frameY="-131" frameWidth="606" frameHeight="660"/>
+	<SubTexture name="BF Flame crit0019" x="2080" y="5135" width="427" height="415" frameX="-82" frameY="-131" frameWidth="606" frameHeight="660"/>
+	<SubTexture name="BF Flame crit0020" x="2507" y="5135" width="427" height="415" frameX="-82" frameY="-131" frameWidth="606" frameHeight="660"/>
+	<SubTexture name="BF Flame hit0000" x="2934" y="5135" width="514" height="545" frameX="-3" frameY="-67" frameWidth="605" frameHeight="660"/>
+	<SubTexture name="BF Flame hit0001" x="3448" y="5135" width="530" height="581" frameX="-2" frameY="-32" frameWidth="605" frameHeight="660"/>
+	<SubTexture name="BF Flame hit0002" x="3978" y="5135" width="589" height="636" frameX="-1" frameY="-11" frameWidth="605" frameHeight="660"/>
+	<SubTexture name="BF Flame hit0003" x="4567" y="5135" width="604" height="657" frameX="0" frameY="0" frameWidth="605" frameHeight="660"/>
+	<SubTexture name="BF Flame hit0004" x="5171" y="5135" width="600" height="643" frameX="-5" frameY="-17" frameWidth="605" frameHeight="660"/>
+	<SubTexture name="BF Flame hit0005" x="5771" y="5135" width="563" height="612" frameX="-37" frameY="-39" frameWidth="605" frameHeight="660"/>
+	<SubTexture name="BF Flame hit0006" x="6334" y="5135" width="545" height="597" frameX="-51" frameY="-40" frameWidth="605" frameHeight="660"/>
+	<SubTexture name="BF Flame hit0007" x="6879" y="5135" width="486" height="594" frameX="-50" frameY="-37" frameWidth="605" frameHeight="660"/>
+	<SubTexture name="BF Flame hit0008" x="7365" y="5135" width="432" height="400" frameX="-87" frameY="-212" frameWidth="605" frameHeight="660"/>
+	<SubTexture name="BF Flame hit0009" x="0" y="5792" width="433" height="397" frameX="-86" frameY="-215" frameWidth="605" frameHeight="660"/>
+	<SubTexture name="BF Flame hit0010" x="433" y="5792" width="436" height="397" frameX="-86" frameY="-215" frameWidth="605" frameHeight="660"/>
+	<SubTexture name="BF Flame hit0011" x="869" y="5792" width="418" height="415" frameX="-66" frameY="-197" frameWidth="605" frameHeight="660"/>
+	<SubTexture name="BF Flame hit0012" x="1287" y="5792" width="421" height="415" frameX="-63" frameY="-197" frameWidth="605" frameHeight="660"/>
+	<SubTexture name="BF Flame hit0013" x="1708" y="5792" width="426" height="416" frameX="-57" frameY="-196" frameWidth="605" frameHeight="660"/>
+	<SubTexture name="BF Flame hit0014" x="2134" y="5792" width="427" height="416" frameX="-56" frameY="-196" frameWidth="605" frameHeight="660"/>
+	<SubTexture name="BF Flame hit0015" x="2561" y="5792" width="428" height="416" frameX="-59" frameY="-196" frameWidth="605" frameHeight="660"/>
+	<SubTexture name="BF Flame hit0016" x="2989" y="5792" width="428" height="416" frameX="-59" frameY="-196" frameWidth="605" frameHeight="660"/>
+</TextureAtlas>

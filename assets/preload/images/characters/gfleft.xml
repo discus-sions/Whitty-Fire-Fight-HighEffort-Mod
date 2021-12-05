@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gfleft.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="GF bop look left0000" x="0" y="0" width="318" height="418" frameX="-14" frameY="-8" frameWidth="346" frameHeight="426"/>
+	<SubTexture name="GF bop look left0001" x="318" y="0" width="307" height="426" frameX="-20" frameY="0" frameWidth="346" frameHeight="426"/>
+	<SubTexture name="GF bop look left0002" x="625" y="0" width="322" height="426" frameX="-7" frameY="0" frameWidth="346" frameHeight="426"/>
+	<SubTexture name="GF bop look left0003" x="947" y="0" width="329" height="426" frameX="-1" frameY="0" frameWidth="346" frameHeight="426"/>
+	<SubTexture name="GF bop look left0004" x="947" y="0" width="329" height="426" frameX="-1" frameY="0" frameWidth="346" frameHeight="426"/>
+	<SubTexture name="GF bop look left0005" x="1276" y="0" width="330" height="426" frameX="0" frameY="0" frameWidth="346" frameHeight="426"/>
+	<SubTexture name="GF bop look left0006" x="1276" y="0" width="330" height="426" frameX="0" frameY="0" frameWidth="346" frameHeight="426"/>
+	<SubTexture name="GF bop look left0007" x="1606" y="0" width="332" height="423" frameX="0" frameY="-3" frameWidth="346" frameHeight="426"/>
+	<SubTexture name="GF bop look left0008" x="0" y="426" width="334" height="414" frameX="-4" frameY="-12" frameWidth="346" frameHeight="426"/>
+	<SubTexture name="GF bop look left0009" x="334" y="426" width="316" height="421" frameX="-27" frameY="-5" frameWidth="346" frameHeight="426"/>
+	<SubTexture name="GF bop look left0010" x="650" y="426" width="310" height="422" frameX="-36" frameY="-4" frameWidth="346" frameHeight="426"/>
+	<SubTexture name="GF bop look left0011" x="650" y="426" width="310" height="422" frameX="-36" frameY="-4" frameWidth="346" frameHeight="426"/>
+	<SubTexture name="GF bop look left0012" x="960" y="426" width="310" height="421" frameX="-34" frameY="-5" frameWidth="346" frameHeight="426"/>
+	<SubTexture name="GF bop look left0013" x="960" y="426" width="310" height="421" frameX="-34" frameY="-5" frameWidth="346" frameHeight="426"/>
+	<SubTexture name="GF bop look left0014" x="1270" y="426" width="310" height="423" frameX="-32" frameY="-3" frameWidth="346" frameHeight="426"/>
+	<SubTexture name="GF bop look left0015" x="1580" y="426" width="315" height="421" frameX="-25" frameY="-5" frameWidth="346" frameHeight="426"/>
+</TextureAtlas>

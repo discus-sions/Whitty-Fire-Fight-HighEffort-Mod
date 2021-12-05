@@ -1,0 +1,91 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-150,
+				-189
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "cheer",
+			"indices": [
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15
+			],
+			"name": "GF bop happy copy0"
+		},
+		{
+			"offsets": [
+				-150,
+				-189
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceRight",
+			"indices": [
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				0
+			],
+			"name": "GF bop happy copy0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-150,
+				-189
+			],
+			"anim": "danceLeft",
+			"fps": 24,
+			"name": "GF bop happy copy0",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8
+			]
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/GFNew2",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "gf",
+	"flip_x": false,
+	"healthbar_colors": [
+		165,
+		0,
+		77
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}
