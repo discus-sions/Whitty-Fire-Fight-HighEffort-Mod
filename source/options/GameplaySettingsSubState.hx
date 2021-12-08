@@ -63,11 +63,11 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 			true); //Default value
 		addOption(option);
 
-		var option:Option = new Option('Health Loss', //Name
-			'If unchecked, Whitty\'s fire will stop damging when at low health. If Whitty\'s fire damges you below low, the game will find the correct amount to get you to low.', //Description
-			'yourLoss', //Save data variable name
-			'bool', //Variable type
-			false); //Default value
+	//	var option:Option = new Option('Health Loss', //Name
+	//		'If unchecked, Whitty\'s fire will stop damging when at low health. If Whitty\'s fire damges you below low, the game will find the correct amount to get you to low.', //Description
+	//		'yourLoss', //Save data variable name
+	//		'bool', //Variable type
+	//		false); //Default value
 	//	addOption(option); //maybe another time.
 
 		var option:Option = new Option('Min Health', //Name
