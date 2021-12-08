@@ -72,7 +72,7 @@ class PauseSubState extends MusicBeatSubstate
 		blueballedTxt.updateHitbox();
 		add(blueballedTxt);
 
-		practiceText = new FlxText(20, 15 + 101, 0, "PRACTICE MODE", 32);
+		practiceText = new FlxText(20, 15 + 101, 0, "PRACTICE MODE IS DISABLED LOL", 32);
 		practiceText.scrollFactor.set();
 		practiceText.setFormat(Paths.font('vcr.ttf'), 32);
 		practiceText.x = FlxG.width - (practiceText.width + 20);

@@ -9,6 +9,8 @@ import Controls;
 class ClientPrefs {
 	public static var downScroll:Bool = false;
 	public static var healthDrain:Bool = false; //man I should have just ported this shit to kade, but too far onto now!
+	public static var shaking:Bool = false;
+	public static var yourLoss:Bool = false;
 	public static var middleScroll:Bool = false;
 	public static var showFPS:Bool = true;
 	public static var flashing:Bool = true;
@@ -83,6 +85,8 @@ class ClientPrefs {
 	public static function saveSettings() {
 		FlxG.save.data.downScroll = downScroll;
 		FlxG.save.data.healthDarin = healthDrain;
+		FlxG.save.data.shaking = shaking;
+		FlxG.save.data.yourLoss = yourLoss;
 		FlxG.save.data.middleScroll = middleScroll;
 		FlxG.save.data.showFPS = showFPS;
 		FlxG.save.data.flashing = flashing;
@@ -126,9 +130,14 @@ class ClientPrefs {
 		if(FlxG.save.data.downScroll != null) {
 			downScroll = FlxG.save.data.downScroll;
 		}
-
 		if(FlxG.save.data.healthDrain != null) {
 			healthDrain = FlxG.save.data.healthDrain;
+		}
+		if(FlxG.save.data.shaking != null){
+			shaking = FlxG.save.data.shaking;
+		}
+		if(FlxG.save.data.yourLoss != null){
+			yourLoss = FlxG.save.data.yourLoss;
 		}
 		if(FlxG.save.data.middleScroll != null) {
 			middleScroll = FlxG.save.data.middleScroll;
@@ -169,9 +178,6 @@ class ClientPrefs {
 		}*/
 		if(FlxG.save.data.camZooms != null) {
 			camZooms = FlxG.save.data.camZooms;
-		}
-		if(FlxG.save.data.hideHud != null) {
-			hideHud = FlxG.save.data.hideHud;
 		}
 		if(FlxG.save.data.noteOffset != null) {
 			noteOffset = FlxG.save.data.noteOffset;

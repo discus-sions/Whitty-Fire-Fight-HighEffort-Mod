@@ -1891,13 +1891,11 @@ class ChartingState extends MusicBeatState
 		{
 			leftIcon.changeIcon(healthIconP1);
 			rightIcon.changeIcon(healthIconP2);
-			if (_song.notes[curSection].gfSection) leftIcon.changeIcon('gf');
 		}
 		else
 		{
 			leftIcon.changeIcon(healthIconP2);
 			rightIcon.changeIcon(healthIconP1);
-			if (_song.notes[curSection].gfSection) leftIcon.changeIcon('gf');
 		}
 	}
 

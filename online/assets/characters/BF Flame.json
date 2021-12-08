@@ -1,0 +1,257 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-141,
+				-1
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "BF Flame Sing Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-105,
+				10
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "BF Flame Sing Down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-139,
+				45
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "BF Flame Sing Up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-176,
+				-1
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "BF Flame Sing Right0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-153,
+				19
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "BF NOTE LEFT MISS",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-175,
+				-19
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "BF NOTE DOWN MISS",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-196,
+				27
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "BF NOTE UP MISS",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-204,
+				22
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "BF NOTE RIGHT MISS",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-123,
+				11
+			],
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "BF dies",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-123,
+				5
+			],
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "BF Dead Loop",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-123,
+				69
+			],
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "BF Dead confirm",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-165,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "BF Flame Idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-78,
+				233
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "Powerup v2",
+			"indices": [],
+			"name": "BF Flame Powerup v2"
+		},
+		{
+			"offsets": [
+				-77,
+				233
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "Powerup",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23
+			],
+			"name": "BF Flame Powerup"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-115,
+				196
+			],
+			"anim": "Hit",
+			"fps": 24,
+			"name": "BF Flame hit0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-162,
+				1
+			],
+			"anim": "Click",
+			"fps": 24,
+			"name": "BF Flame click0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-90,
+				129
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "Hit Crit",
+			"indices": [],
+			"name": "BF Flame crit"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-139,
+				45
+			],
+			"anim": "Boom",
+			"fps": 24,
+			"name": "BF Flame Boom",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				76,
+				446
+			],
+			"anim": "Hit Flame",
+			"fps": 24,
+			"name": "BF Flame Flamewall",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/BF Flame",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "BF Flame",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		95,
+		0
+	],
+	"camera_position": [
+		23,
+		-16
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

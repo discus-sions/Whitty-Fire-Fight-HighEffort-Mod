@@ -1,0 +1,34 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				60,
+				320
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Whitty scream Agro",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/WhittyScream",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "whitty",
+	"flip_x": false,
+	"healthbar_colors": [
+		49,
+		40,
+		40
+	],
+	"camera_position": [
+		-290,
+		-430
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

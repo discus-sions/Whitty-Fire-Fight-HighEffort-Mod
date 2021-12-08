@@ -56,8 +56,22 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 			true);
 		addOption(option);
 
+		var option:Option = new Option('Shaking', //Name
+			'If unchecked, the "Camera Shake" event will not work.', //Description
+			'shaking', //Save data variable name
+			'bool', //Variable type
+			true); //Default value
+		addOption(option);
+
+		var option:Option = new Option('Health Loss', //Name
+			'If unchecked, Whitty\'s fire will stop damging when at low health. If Whitty\'s fire damges you below low, the game will find the correct amount to get you to low.', //Description
+			'yourLoss', //Save data variable name
+			'bool', //Variable type
+			false); //Default value
+	//	addOption(option); //maybe another time.
+
 		var option:Option = new Option('Min Health', //Name
-			'Makes the Opponet\'s health drain stop when close to dying. simple enough and may help.', //Description
+			'If checked, makes the opponent\'s health drain stop when close to dying. This may help if you keep dying at drops.', //Description
 			'healthDrain', //Save data variable name
 			'bool', //Variable type
 			false); //Default value

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="WhittyExtra.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Click Agro0000" x="0" y="0" width="737" height="869" frameX="-75" frameY="0" frameWidth="812" frameHeight="869"/>
+	<SubTexture name="Click Agro0001" x="737" y="0" width="739" height="869" frameX="-73" frameY="0" frameWidth="812" frameHeight="869"/>
+	<SubTexture name="Click Agro0002" x="1476" y="0" width="739" height="869" frameX="-73" frameY="0" frameWidth="812" frameHeight="869"/>
+	<SubTexture name="Click Agro0003" x="2215" y="0" width="737" height="869" frameX="-75" frameY="0" frameWidth="812" frameHeight="869"/>
+	<SubTexture name="Click Agro0004" x="2952" y="0" width="788" height="869" frameX="-24" frameY="0" frameWidth="812" frameHeight="869"/>
+	<SubTexture name="Click Agro0005" x="3740" y="0" width="794" height="869" frameX="-18" frameY="0" frameWidth="812" frameHeight="869"/>
+	<SubTexture name="Click Agro0006" x="4534" y="0" width="812" height="869"/>
+	<SubTexture name="Click Agro0007" x="5346" y="0" width="812" height="869"/>
+	<SubTexture name="Click Agro0008" x="6158" y="0" width="732" height="869" frameX="-80" frameY="0" frameWidth="812" frameHeight="869"/>
+	<SubTexture name="Click Agro0009" x="6890" y="0" width="497" height="819" frameX="-80" frameY="-47" frameWidth="812" frameHeight="869"/>
+	<SubTexture name="Click Agro0010" x="7387" y="0" width="488" height="817" frameX="-80" frameY="-49" frameWidth="812" frameHeight="869"/>
+	<SubTexture name="Click Agro0011" x="0" y="869" width="732" height="869" frameX="-80" frameY="0" frameWidth="812" frameHeight="869"/>
+	<SubTexture name="Click Agro0012" x="732" y="869" width="713" height="869" frameX="-99" frameY="0" frameWidth="812" frameHeight="869"/>
+	<SubTexture name="Click Agro0013" x="1445" y="869" width="474" height="801" frameX="-99" frameY="-65" frameWidth="812" frameHeight="869"/>
+	<SubTexture name="Click Agro0014" x="1919" y="869" width="387" height="833" frameX="-148" frameY="-33" frameWidth="812" frameHeight="869"/>
+	<SubTexture name="Click Agro0015" x="2306" y="869" width="664" height="869" frameX="-148" frameY="0" frameWidth="812" frameHeight="869"/>
+	<SubTexture name="Click Agro0016" x="2970" y="869" width="664" height="869" frameX="-148" frameY="0" frameWidth="812" frameHeight="869"/>
+	<SubTexture name="Click Agro0017" x="3634" y="869" width="403" height="827" frameX="-148" frameY="-39" frameWidth="812" frameHeight="869"/>
+	<SubTexture name="Cold Down Agro0000" x="4037" y="869" width="675" height="869" frameX="0" frameY="0" frameWidth="676" frameHeight="869"/>
+	<SubTexture name="Cold Down Agro0001" x="4037" y="869" width="675" height="869" frameX="0" frameY="0" frameWidth="676" frameHeight="869"/>
+	<SubTexture name="Cold Down Agro0002" x="4712" y="869" width="676" height="869"/>
+	<SubTexture name="Cold Down Agro0003" x="4712" y="869" width="676" height="869"/>
+	<SubTexture name="Cold Down Agro0004" x="5388" y="869" width="676" height="869"/>
+	<SubTexture name="Cold Down Agro0005" x="5388" y="869" width="676" height="869"/>
+	<SubTexture name="Cold Down Agro0006" x="6064" y="869" width="675" height="869" frameX="0" frameY="0" frameWidth="676" frameHeight="869"/>
+	<SubTexture name="Cold Down Agro0007" x="6064" y="869" width="675" height="869" frameX="0" frameY="0" frameWidth="676" frameHeight="869"/>
+	<SubTexture name="Cold Down Agro0008" x="6739" y="869" width="675" height="869" frameX="0" frameY="0" frameWidth="676" frameHeight="869"/>
+	<SubTexture name="Cold Down Agro0009" x="6739" y="869" width="675" height="869" frameX="0" frameY="0" frameWidth="676" frameHeight="869"/>
+	<SubTexture name="Cold Down Agro0010" x="7414" y="869" width="676" height="869"/>
+	<SubTexture name="Cold Down Agro0011" x="7414" y="869" width="676" height="869"/>
+	<SubTexture name="Cold Down Agro0012" x="0" y="1738" width="676" height="869"/>
+	<SubTexture name="Cold Down Agro0013" x="0" y="1738" width="676" height="869"/>
+	<SubTexture name="Cold Down Agro0014" x="676" y="1738" width="675" height="869" frameX="0" frameY="0" frameWidth="676" frameHeight="869"/>
+	<SubTexture name="Cold Down Agro0015" x="1351" y="1738" width="415" height="829" frameX="0" frameY="-39" frameWidth="676" frameHeight="869"/>
+	<SubTexture name="Cold Down Agro0016" x="1766" y="1738" width="415" height="837" frameX="0" frameY="-31" frameWidth="676" frameHeight="869"/>
+	<SubTexture name="Cold Down Agro0017" x="2181" y="1738" width="675" height="869" frameX="0" frameY="0" frameWidth="676" frameHeight="869"/>
+	<SubTexture name="Cold Down Agro0018" x="4712" y="869" width="676" height="869"/>
+	<SubTexture name="Cold Down Agro0019" x="2856" y="1738" width="415" height="838" frameX="0" frameY="-30" frameWidth="676" frameHeight="869"/>
+	<SubTexture name="Cold Down Agro0020" x="3271" y="1738" width="415" height="830" frameX="0" frameY="-38" frameWidth="676" frameHeight="869"/>
+	<SubTexture name="Cold Down Agro0021" x="5388" y="869" width="676" height="869"/>
+	<SubTexture name="Cold Down Agro0022" x="6064" y="869" width="675" height="869" frameX="0" frameY="0" frameWidth="676" frameHeight="869"/>
+	<SubTexture name="Cold Down Agro0023" x="3686" y="1738" width="415" height="830" frameX="0" frameY="-38" frameWidth="676" frameHeight="869"/>
+	<SubTexture name="Idle Agro0000" x="4101" y="1738" width="694" height="869"/>
+	<SubTexture name="Idle Agro0001" x="4795" y="1738" width="694" height="869"/>
+	<SubTexture name="Idle Agro0002" x="5489" y="1738" width="689" height="869" frameX="-5" frameY="0" frameWidth="694" frameHeight="869"/>
+	<SubTexture name="Idle Agro0003" x="6178" y="1738" width="689" height="869" frameX="-5" frameY="0" frameWidth="694" frameHeight="869"/>
+	<SubTexture name="Idle Agro0004" x="6867" y="1738" width="688" height="869" frameX="-6" frameY="0" frameWidth="694" frameHeight="869"/>
+	<SubTexture name="Idle Agro0005" x="0" y="2607" width="688" height="869" frameX="-6" frameY="0" frameWidth="694" frameHeight="869"/>
+	<SubTexture name="Idle Agro0006" x="688" y="2607" width="688" height="869" frameX="-6" frameY="0" frameWidth="694" frameHeight="869"/>
+	<SubTexture name="Idle Agro0007" x="688" y="2607" width="688" height="869" frameX="-6" frameY="0" frameWidth="694" frameHeight="869"/>
+	<SubTexture name="Idle Agro0008" x="1376" y="2607" width="688" height="869" frameX="-6" frameY="0" frameWidth="694" frameHeight="869"/>
+	<SubTexture name="Idle Agro0009" x="1376" y="2607" width="688" height="869" frameX="-6" frameY="0" frameWidth="694" frameHeight="869"/>
+	<SubTexture name="Idle Agro0010" x="2064" y="2607" width="688" height="869" frameX="-6" frameY="0" frameWidth="694" frameHeight="869"/>
+	<SubTexture name="Idle Agro0011" x="2752" y="2607" width="688" height="869" frameX="-6" frameY="0" frameWidth="694" frameHeight="869"/>
+	<SubTexture name="Idle Agro0012" x="3440" y="2607" width="688" height="869" frameX="-6" frameY="0" frameWidth="694" frameHeight="869"/>
+	<SubTexture name="Idle Agro0013" x="4128" y="2607" width="691" height="869" frameX="-3" frameY="0" frameWidth="694" frameHeight="869"/>
+	<SubTexture name="Idle Agro0014" x="4819" y="2607" width="691" height="869" frameX="-3" frameY="0" frameWidth="694" frameHeight="869"/>
+	<SubTexture name="Idle Agro0015" x="5510" y="2607" width="691" height="869" frameX="-3" frameY="0" frameWidth="694" frameHeight="869"/>
+	<SubTexture name="Shield Spin Agro0000" x="6201" y="2607" width="739" height="701" frameX="-159" frameY="-255" frameWidth="901" frameHeight="967"/>
+	<SubTexture name="Shield Spin Agro0001" x="6940" y="2607" width="848" height="843" frameX="-39" frameY="-98" frameWidth="901" frameHeight="967"/>
+	<SubTexture name="Shield Spin Agro0002" x="0" y="3476" width="855" height="949" frameX="-45" frameY="-18" frameWidth="901" frameHeight="967"/>
+	<SubTexture name="Shield Spin Agro0003" x="855" y="3476" width="869" height="957" frameX="-31" frameY="-10" frameWidth="901" frameHeight="967"/>
+	<SubTexture name="Shield Spin Agro0004" x="1724" y="3476" width="900" height="967" frameX="0" frameY="0" frameWidth="901" frameHeight="967"/>
+	<SubTexture name="Shield Spin Agro0005" x="1724" y="3476" width="900" height="967" frameX="0" frameY="0" frameWidth="901" frameHeight="967"/>
+	<SubTexture name="Shield Spin Agro0006" x="2624" y="3476" width="898" height="949" frameX="-3" frameY="-18" frameWidth="901" frameHeight="967"/>
+	<SubTexture name="Shield Spin Agro0007" x="2624" y="3476" width="898" height="949" frameX="-3" frameY="-18" frameWidth="901" frameHeight="967"/>
+	<SubTexture name="Shield Spin Agro0008" x="3522" y="3476" width="863" height="908" frameX="-37" frameY="-59" frameWidth="901" frameHeight="967"/>
+	<SubTexture name="Shield Spin Agro0009" x="3522" y="3476" width="863" height="908" frameX="-37" frameY="-59" frameWidth="901" frameHeight="967"/>
+	<SubTexture name="Shield Spin Agro0010" x="4385" y="3476" width="674" height="871" frameX="-226" frameY="-96" frameWidth="901" frameHeight="967"/>
+	<SubTexture name="Shield Spin Agro0011" x="5059" y="3476" width="674" height="871" frameX="-226" frameY="-96" frameWidth="901" frameHeight="967"/>
+	<SubTexture name="Shield Spin Agro0012" x="5733" y="3476" width="674" height="871" frameX="-226" frameY="-96" frameWidth="901" frameHeight="967"/>
+	<SubTexture name="Shield Spin Agro0013" x="6407" y="3476" width="674" height="871" frameX="-226" frameY="-96" frameWidth="901" frameHeight="967"/>
+	<SubTexture name="Shield Spin Agro0014" x="7081" y="3476" width="675" height="871" frameX="-226" frameY="-96" frameWidth="901" frameHeight="967"/>
+</TextureAtlas>

@@ -1,0 +1,71 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-150,
+				-189
+			],
+			"anim": "danceLeft",
+			"fps": 24,
+			"name": "GF Shock",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-150,
+				-189
+			],
+			"anim": "danceRight",
+			"fps": 24,
+			"name": "GF Shock",
+			"indices": [
+				7,
+				8,
+				9,
+				10,
+				11,
+				12
+			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-150,
+				-189
+			],
+			"anim": "cheer",
+			"fps": 24,
+			"name": "GF Shock",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/gfshocked2",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "gf",
+	"flip_x": false,
+	"healthbar_colors": [
+		165,
+		0,
+		77
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}
