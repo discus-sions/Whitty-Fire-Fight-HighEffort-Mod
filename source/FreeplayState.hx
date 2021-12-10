@@ -278,8 +278,18 @@ class FreeplayState extends MusicBeatState
 			instPlaying = curSelected;
 		}
 		else #end if (accepted)
-		{
-			var songLowercase:String = songs[curSelected].songName.toLowerCase();
+		{ //man html5 is gving me a lot of problems lol
+			var songLowercase:String = 'idk yet lol';
+
+			#if html5 
+			if (songs[curSelected].songName.toLowerCase() == 'overhead')
+				songLowercase = 'Overhead';
+			#end
+			
+			#if desktop
+			songLowercase = songs[curSelected].songName.toLowerCase();
+			#end
+
 			var poop:String = Highscore.formatSong(songLowercase, curDifficulty);
 			if(!OpenFlAssets.exists(Paths.json(songLowercase + '/' + poop))) {
 				poop = songLowercase;
