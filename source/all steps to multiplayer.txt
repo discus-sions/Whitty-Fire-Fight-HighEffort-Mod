@@ -1,0 +1,4 @@
+- add more controls, -- Yes, finally done! Also put it in ControlsSubState too :)
+- make it so mustpress notes dont get auto destoyed after passing strumline,  --yea done
+- and make it so the controls for p2 can hit do goodnotehit (maybe make another function idk) -- now complete
+- also so p2 controls do cpu strums 

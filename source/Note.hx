@@ -23,7 +23,8 @@ class Note extends FlxSprite
 	public var hitByOpponent:Bool = false;
 	public var noteWasHit:Bool = false;
 	public var prevNote:Note;
-
+	public var onOpponetSide:Bool = false; //I later found out that "mustPress" was this function. . . too Late Now.
+ 
 	public var sustainLength:Float = 0;
 	public var isSustainNote:Bool = false;
 	public var noteType(default, set):String = null;
@@ -67,6 +68,20 @@ class Note extends FlxSprite
 	public var noAnimation:Bool = false;
 	public var hitCausesMiss:Bool = false;
 	public var distance:Float = 2000;//plan on doing scroll directions soon -bb
+
+	////////////////////////////////////////////////////////////
+
+	//extra shit idk where to put
+	public var noteScore:Float = 1;
+	public var rating:String = "shit";
+	public var scaleMulti:Float = 1; //for middlescroll
+	public var daShit:Int = 0; //this is just for note data and anim shit that was annoying me
+	public static var hitTiming = 145;
+	public var earlyHitTiming = hitTiming;
+	public var lateHitTiming = -hitTiming;
+	public var followAngle:Bool = true;
+
+	////////////////////////////////////////////////////////////
 
 	private function set_texture(value:String):String {
 		if(texture != value) {
@@ -323,7 +338,7 @@ class Note extends FlxSprite
 	{
 		super.update(elapsed);
 
-		if (mustPress)
+		/*if (mustPress)
 		{
 			// ok river
 			if (strumTime > Conductor.songPosition - Conductor.safeZoneOffset
@@ -347,6 +362,34 @@ class Note extends FlxSprite
 		{
 			if (alpha > 0.3)
 				alpha = 0.3;
-		}
+		}*/
+
+		if ((mustPress) || (ClientPrefs.multiplayer))
+			{
+					if (strumTime - Conductor.songPosition <= (earlyHitTiming * Conductor.timeScale)
+						&& strumTime - Conductor.songPosition >= (lateHitTiming * Conductor.timeScale))
+						canBeHit = true;
+					else
+						canBeHit = false;
+
+				if (strumTime - Conductor.songPosition < lateHitTiming && !wasGoodHit)
+					tooLate = true;
+			}
+			else
+			{
+				canBeHit = false;
+	
+				if (strumTime <= Conductor.songPosition)
+					wasGoodHit = true;
+			}
+	}
+
+	function deleteShit():Void
+	{
+		//var strums = "cpu";
+	//	if (PlayState.flipped && !PlayState.multiplayer)
+	//		strums = "player";
+	
+	//	PlayState.instance.removeNote(this, strums);
 	}
 }

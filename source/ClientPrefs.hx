@@ -9,6 +9,7 @@ import Controls;
 class ClientPrefs {
 	public static var downScroll:Bool = false;
 	public static var healthDrain:Bool = false; //man I should have just ported this shit to kade, but too far onto now!
+	public static var multiplayer:Bool = false; //does not save betwen launching the game.
 	public static var shaking:Bool = false;
 	public static var yourLoss:Bool = false;
 	public static var middleScroll:Bool = false;
@@ -62,6 +63,16 @@ class ClientPrefs {
 		'ui_down'		=> [S, DOWN],
 		'ui_up'			=> [W, UP],
 		'ui_right'		=> [D, RIGHT],
+
+		'p1_note_left'	=> [A, Z],
+		'p1_note_down'	=> [S, X],
+		'p1_note_up'	=> [W, C],
+		'p1_note_right'	=> [D, V],
+
+		'p2_note_left'	=> [J, U],
+		'p2_note_down'	=> [K, I],
+		'p2_note_up'	=> [I, O],
+		'p2_note_right'	=> [L, P],
 		
 		'accept'		=> [SPACE, ENTER],
 		'back'			=> [BACKSPACE, ESCAPE],

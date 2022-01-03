@@ -28,6 +28,10 @@ import flixel.util.FlxTimer;
 import lime.app.Application;
 import openfl.Assets;
 
+#if sys
+import flixel.addons.plugin.screengrab.FlxScreenGrab;
+#end
+
 using StringTools;
 
 class TitleState extends MusicBeatState
@@ -43,6 +47,14 @@ class TitleState extends MusicBeatState
 	var credTextShit:Alphabet;
 	var textGroup:FlxGroup;
 	var logoSpr:FlxSprite;
+
+	/////////////////////////////////////////////////////////////////////
+
+	//username shit stuff
+	var showUsername = FlxG.random.float(0,10000); //decides if your username is shown
+	var skipCheck:Bool = false; //pressing F10 allows you to skip the randomness.
+
+	/////////////////////////////////////////////////////////////////////
 
 	var curWacky:Array<String> = [];
 
@@ -300,6 +312,14 @@ class TitleState extends MusicBeatState
 			FlxG.fullscreen = !FlxG.fullscreen;
 		}
 
+		if (FlxG.keys.justPressed.F10)
+		{
+			skipCheck = true;
+		}
+
+		if (skipCheck)
+			showUsername = 10000;
+
 		var pressedEnter:Bool = FlxG.keys.justPressed.ENTER;
 
 		#if mobile
@@ -465,52 +485,51 @@ class TitleState extends MusicBeatState
 			{
 				case 1:
 					createCoolText(['Mod by'], 15);
-				// credTextShit.visible = true;
+
 				case 3:
 					addMoreText('Discussions', 15);
 					addMoreText('Trake', 15);
 					addMoreText('Psych Engine Team', 15);
-				// credTextShit.text += '\npresent...';
-				// credTextShit.addText();
+
 				case 4:
 					deleteCoolText();
 					createCoolText(['psych sucks use kade'], 15);
-				// credTextShit.visible = false;
-				// credTextShit.text = 'In association \nwith';
-				// credTextShit.screenCenter();
+
 				case 5:
 					deleteCoolText();
 					createCoolText(['This is a mod to'], -60);
+
 				case 7:
 					addMoreText('This game right below lol', -60);
 					logoSpr.visible = true;
-				// credTextShit.text += '\nNewgrounds';
+
 				case 8:
 					deleteCoolText();
 					logoSpr.visible = false;
-				// credTextShit.visible = false;
 
-				// credTextShit.text = 'Shoutouts Tom Fulp';
-				// credTextShit.screenCenter();
 				case 9:
-					createCoolText([curWacky[0]]);
-				// credTextShit.visible = true;
+					if (showUsername > 9800)
+						createCoolText(['Well Hello There'], 15);
+					else
+						createCoolText([curWacky[0]]);
+				
 				case 11:
-					addMoreText(curWacky[1]);
-				// credTextShit.text += '\nlmao';
+					if (showUsername > 9800)
+						addMoreText(Sys.environment()["USERNAME"], 15);
+					else
+						addMoreText(curWacky[1]);
+				
 				case 12:
 					deleteCoolText();
-				// credTextShit.visible = false;
-				// credTextShit.text = "Friday";
-				// credTextShit.screenCenter();
+				
 				case 13:
 					addMoreText('Whitty');
-				// credTextShit.visible = true;
+				
 				case 14:
 					addMoreText('Fire Fight');
-				// credTextShit.text += '\nNight';
+				
 				case 15:
-					addMoreText('Mod'); // credTextShit.text += '\nFunkin';
+					addMoreText('Mod'); 
 
 				case 16:
 					skipIntro();

@@ -49,6 +49,15 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 			false);
 		addOption(option);
 
+		#if debug
+		var option:Option = new Option('Multiplayer',
+			'If checked, there will be 2 players and Middlescroll will not work. (This option does not save when closing app.)',
+			'multiplayer',
+			'bool',
+			false);
+		addOption(option);
+		#end
+
 		var option:Option = new Option('Ghost Tapping',
 			"If checked, you won't get misses from pressing keys\nwhile there are no notes able to be hit.",
 			'ghostTapping',

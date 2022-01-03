@@ -42,6 +42,31 @@ enum abstract Action(String) to String from String
 	var BACK = "back";
 	var PAUSE = "pause";
 	var RESET = "reset";
+
+	var P2_NOTE_UP = "p2_note_up";
+	var P2_NOTE_LEFT = "p2_note_left";
+	var P2_NOTE_RIGHT = "p2_note_right";
+	var P2_NOTE_DOWN = "p2_note_down";
+	var P1_NOTE_UP = "p1_note_up";
+	var P1_NOTE_LEFT = "p1_note_left";
+	var P1_NOTE_RIGHT = "p1_note_right";
+	var P1_NOTE_DOWN = "p1_note_down";
+	var P2_NOTE_UP_P = "p2_note_up-press";
+	var P2_NOTE_LEFT_P = "p2_note_left-press";
+	var P2_NOTE_RIGHT_P = "p2_note_right-press";
+	var P2_NOTE_DOWN_P = "p2_note_down-press";
+	var P1_NOTE_UP_P = "p1_note_up-press";
+	var P1_NOTE_LEFT_P = "p1_note_left-press";
+	var P1_NOTE_RIGHT_P = "p1_note_right-press";
+	var P1_NOTE_DOWN_P = "p1_note_down-press";
+	var P2_NOTE_UP_R = "p2_note_up-release";
+	var P2_NOTE_LEFT_R = "p2_note_left-release";
+	var P2_NOTE_RIGHT_R = "p2_note_right-release";
+	var P2_NOTE_DOWN_R = "p2_note_down-release";
+	var P1_NOTE_UP_R = "p1_note_up-release";
+	var P1_NOTE_LEFT_R = "p1_note_left-release";
+	var P1_NOTE_RIGHT_R = "p1_note_right-release";
+	var P1_NOTE_DOWN_R = "p1_note_down-release";
 }
 #else
 @:enum
@@ -75,6 +100,31 @@ abstract Action(String) to String from String
 	var BACK = "back";
 	var PAUSE = "pause";
 	var RESET = "reset";
+
+	var P2_NOTE_UP = "p2_note_up";
+	var P2_NOTE_LEFT = "p2_note_left";
+	var P2_NOTE_RIGHT = "p2_note_right";
+	var P2_NOTE_DOWN = "p2_note_down";
+	var P1_NOTE_UP = "p1_note_up";
+	var P1_NOTE_LEFT = "p1_note_left";
+	var P1_NOTE_RIGHT = "p1_note_right";
+	var P1_NOTE_DOWN = "p1_note_down";
+	var P2_NOTE_UP_P = "p2_note_up-press";
+	var P2_NOTE_LEFT_P = "p2_note_left-press";
+	var P2_NOTE_RIGHT_P = "p2_note_right-press";
+	var P2_NOTE_DOWN_P = "p2_note_down-press";
+	var P1_NOTE_UP_P = "p1_note_up-press";
+	var P1_NOTE_LEFT_P = "p1_note_left-press";
+	var P1_NOTE_RIGHT_P = "p1_note_right-press";
+	var P1_NOTE_DOWN_P = "p1_note_down-press";
+	var P2_NOTE_UP_R = "p2_note_up-release";
+	var P2_NOTE_LEFT_R = "p2_note_left-release";
+	var P2_NOTE_RIGHT_R = "p2_note_right-release";
+	var P2_NOTE_DOWN_R = "p2_note_down-release";
+	var P1_NOTE_UP_R = "p1_note_up-release";
+	var P1_NOTE_LEFT_R = "p1_note_left-release";
+	var P1_NOTE_RIGHT_R = "p1_note_right-release";
+	var P1_NOTE_DOWN_R = "p1_note_down-release";
 }
 #end
 
@@ -103,6 +153,15 @@ enum Control
 	ACCEPT;
 	BACK;
 	PAUSE;
+
+	P2_NOTE_UP;
+	P2_NOTE_LEFT;
+	P2_NOTE_RIGHT;
+	P2_NOTE_DOWN;
+	P1_NOTE_UP;
+	P1_NOTE_LEFT;
+	P1_NOTE_RIGHT;
+	P1_NOTE_DOWN;
 }
 
 enum KeyboardScheme
@@ -147,6 +206,31 @@ class Controls extends FlxActionSet
 	var _back = new FlxActionDigital(Action.BACK);
 	var _pause = new FlxActionDigital(Action.PAUSE);
 	var _reset = new FlxActionDigital(Action.RESET);
+
+	var _p2_note_up = new FlxActionDigital(Action.P2_NOTE_UP);
+	var _p2_note_left = new FlxActionDigital(Action.P2_NOTE_LEFT);
+	var _p2_note_right = new FlxActionDigital(Action.P2_NOTE_RIGHT);
+	var _p2_note_down = new FlxActionDigital(Action.P2_NOTE_DOWN);
+	var _p2_note_upP = new FlxActionDigital(Action.P2_NOTE_UP_P);
+	var _p2_note_leftP = new FlxActionDigital(Action.P2_NOTE_LEFT_P);
+	var _p2_note_rightP = new FlxActionDigital(Action.P2_NOTE_RIGHT_P);
+	var _p2_note_downP = new FlxActionDigital(Action.P2_NOTE_DOWN_P);
+	var _p2_note_upR = new FlxActionDigital(Action.P2_NOTE_UP_R);
+	var _p2_note_leftR = new FlxActionDigital(Action.P2_NOTE_LEFT_R);
+	var _p2_note_rightR = new FlxActionDigital(Action.P2_NOTE_RIGHT_R);
+	var _p2_note_downR = new FlxActionDigital(Action.P2_NOTE_DOWN_R);
+	var _p1_note_up = new FlxActionDigital(Action.P1_NOTE_UP);
+	var _p1_note_left = new FlxActionDigital(Action.P1_NOTE_LEFT);
+	var _p1_note_right = new FlxActionDigital(Action.P1_NOTE_RIGHT);
+	var _p1_note_down = new FlxActionDigital(Action.P1_NOTE_DOWN);
+	var _p1_note_upP = new FlxActionDigital(Action.P1_NOTE_UP_P);
+	var _p1_note_leftP = new FlxActionDigital(Action.P1_NOTE_LEFT_P);
+	var _p1_note_rightP = new FlxActionDigital(Action.P1_NOTE_RIGHT_P);
+	var _p1_note_downP = new FlxActionDigital(Action.P1_NOTE_DOWN_P);
+	var _p1_note_upR = new FlxActionDigital(Action.P1_NOTE_UP_R);
+	var _p1_note_leftR = new FlxActionDigital(Action.P1_NOTE_LEFT_R);
+	var _p1_note_rightR = new FlxActionDigital(Action.P1_NOTE_RIGHT_R);
+	var _p1_note_downR = new FlxActionDigital(Action.P1_NOTE_DOWN_R);
 
 	#if (haxe >= "4.0.0")
 	var byName:Map<String, FlxActionDigital> = [];
@@ -297,6 +381,131 @@ class Controls extends FlxActionSet
 	inline function get_RESET()
 		return _reset.check();
 
+	//P2
+
+	public var P2_NOTE_LEFT(get, never):Bool;
+
+	inline function get_P2_NOTE_LEFT()
+		return _p2_note_left.check();
+
+	public var P2_NOTE_RIGHT(get, never):Bool;
+
+	inline function get_P2_NOTE_RIGHT()
+		return _p2_note_right.check();
+
+	public var P2_NOTE_DOWN(get, never):Bool;
+
+	inline function get_P2_NOTE_DOWN()
+		return _p2_note_down.check();
+
+	public var P2_NOTE_UP_P(get, never):Bool;
+
+	inline function get_P2_NOTE_UP_P()
+		return _p2_note_upP.check();
+
+	public var P2_NOTE_LEFT_P(get, never):Bool;
+
+	inline function get_P2_NOTE_LEFT_P()
+		return _p2_note_leftP.check();
+
+	public var P2_NOTE_RIGHT_P(get, never):Bool;
+
+	inline function get_P2_NOTE_RIGHT_P()
+		return _p2_note_rightP.check();
+
+	public var P2_NOTE_DOWN_P(get, never):Bool;
+
+	inline function get_P2_NOTE_DOWN_P()
+		return _p2_note_downP.check();
+
+	public var P2_NOTE_UP_R(get, never):Bool;
+
+	inline function get_P2_NOTE_UP_R()
+		return _p2_note_upR.check();
+
+	public var P2_NOTE_LEFT_R(get, never):Bool;
+
+	inline function get_P2_NOTE_LEFT_R()
+		return _p2_note_leftR.check();
+
+	public var P2_NOTE_RIGHT_R(get, never):Bool;
+
+	inline function get_P2_NOTE_RIGHT_R()
+		return _p2_note_rightR.check();
+
+	public var P2_NOTE_DOWN_R(get, never):Bool;
+
+	inline function get_P2_NOTE_DOWN_R()
+		return _p2_note_downR.check();
+
+	public var P2_NOTE_UP(get, never):Bool;
+
+	inline function get_P2_NOTE_UP()
+		return _p2_note_up.check();
+
+
+	//P1
+
+	public var P1_NOTE_UP(get, never):Bool;
+
+	inline function get_P1_NOTE_UP()
+		return _p1_note_up.check();
+
+	public var P1_NOTE_LEFT(get, never):Bool;
+
+	inline function get_P1_NOTE_LEFT()
+		return _p1_note_left.check();
+
+	public var P1_NOTE_RIGHT(get, never):Bool;
+
+	inline function get_P1_NOTE_RIGHT()
+		return _p1_note_right.check();
+
+	public var P1_NOTE_DOWN(get, never):Bool;
+
+	inline function get_P1_NOTE_DOWN()
+		return _p1_note_down.check();
+
+	public var P1_NOTE_UP_P(get, never):Bool;
+
+	inline function get_P1_NOTE_UP_P()
+		return _p1_note_upP.check();
+
+	public var P1_NOTE_LEFT_P(get, never):Bool;
+
+	inline function get_P1_NOTE_LEFT_P()
+		return _p1_note_leftP.check();
+
+	public var P1_NOTE_RIGHT_P(get, never):Bool;
+
+	inline function get_P1_NOTE_RIGHT_P()
+		return _p1_note_rightP.check();
+
+	public var P1_NOTE_DOWN_P(get, never):Bool;
+
+	inline function get_P1_NOTE_DOWN_P()
+		return _p1_note_downP.check();
+
+	public var P1_NOTE_UP_R(get, never):Bool;
+
+	inline function get_P1_NOTE_UP_R()
+		return _p1_note_upR.check();
+
+	public var P1_NOTE_LEFT_R(get, never):Bool;
+
+	inline function get_P1_NOTE_LEFT_R()
+		return _p1_note_leftR.check();
+
+	public var P1_NOTE_RIGHT_R(get, never):Bool;
+
+	inline function get_P1_NOTE_RIGHT_R()
+		return _p1_note_rightR.check();
+
+	public var P1_NOTE_DOWN_R(get, never):Bool;
+
+	inline function get_P1_NOTE_DOWN_R()
+		return _note_downR.check();
+
 	#if (haxe >= "4.0.0")
 	public function new(name, scheme = None)
 	{
@@ -330,6 +539,33 @@ class Controls extends FlxActionSet
 		add(_back);
 		add(_pause);
 		add(_reset);
+
+		//P2
+		add(_p2_note_up);
+		add(_p2_note_left);
+		add(_p2_note_right);
+		add(_p2_note_down);
+		add(_p2_note_upP);
+		add(_p2_note_leftP);
+		add(_p2_note_rightP);
+		add(_p2_note_downP);
+		add(_p2_note_upR);
+		add(_p2_note_leftR);
+		add(_p2_note_rightR);
+		add(_p2_note_downR);
+		//P1
+		add(_p1_note_up);
+		add(_p1_note_left);
+		add(_p1_note_right);
+		add(_p1_note_down);
+		add(_p1_note_upP);
+		add(_p1_note_leftP);
+		add(_p1_note_rightP);
+		add(_p1_note_downP);
+		add(_p1_note_upR);
+		add(_p1_note_leftR);
+		add(_p1_note_rightR);
+		add(_p1_note_downR);
 
 		for (action in digitalActions)
 			byName[action.name] = action;
@@ -369,6 +605,33 @@ class Controls extends FlxActionSet
 		add(_back);
 		add(_pause);
 		add(_reset);
+
+		//P2
+		add(_p2_note_up);
+		add(_p2_note_left);
+		add(_p2_note_right);
+		add(_p2_note_down);
+		add(_p2_note_upP);
+		add(_p2_note_leftP);
+		add(_p2_note_rightP);
+		add(_p2_note_downP);
+		add(_p2_note_upR);
+		add(_p2_note_leftR);
+		add(_p2_note_rightR);
+		add(_p2_note_downR);
+		//P1
+		add(_p1_note_up);
+		add(_p1_note_left);
+		add(_p1_note_right);
+		add(_p1_note_down);
+		add(_p1_note_upP);
+		add(_p1_note_leftP);
+		add(_p1_note_rightP);
+		add(_p1_note_downP);
+		add(_p1_note_upR);
+		add(_p1_note_leftR);
+		add(_p1_note_rightR);
+		add(_p1_note_downR);
 
 		for (action in digitalActions)
 			byName[action.name] = action;
@@ -426,6 +689,17 @@ class Controls extends FlxActionSet
 			case BACK: _back;
 			case PAUSE: _pause;
 			case RESET: _reset;
+
+			//P1
+			case P2_NOTE_UP: _p1_note_up;
+			case P2_NOTE_DOWN: _p1_note_down;
+			case P2_NOTE_LEFT: _p1_note_left;
+			case P2_NOTE_RIGHT: _p1_note_right;
+			//P1
+			case P1_NOTE_UP: _p1_note_up;
+			case P1_NOTE_DOWN: _p1_note_down;
+			case P1_NOTE_LEFT: _p1_note_left;
+			case P1_NOTE_RIGHT: _p1_note_right;
 		}
 	}
 
@@ -485,6 +759,44 @@ class Controls extends FlxActionSet
 				func(_pause, JUST_PRESSED);
 			case RESET:
 				func(_reset, JUST_PRESSED);
+
+			//P2
+
+			case P2_NOTE_UP:
+				func(_p2_note_up, PRESSED);
+				func(_p2_note_upP, JUST_PRESSED);
+				func(_p2_note_upR, JUST_RELEASED);
+			case P2_NOTE_LEFT:
+				func(_p2_note_left, PRESSED);
+				func(_p2_note_leftP, JUST_PRESSED);
+				func(_p2_note_leftR, JUST_RELEASED);
+			case P2_NOTE_RIGHT:
+				func(_p2_note_right, PRESSED);
+				func(_p2_note_rightP, JUST_PRESSED);
+				func(_p2_note_rightR, JUST_RELEASED);
+			case P2_NOTE_DOWN:
+				func(_p2_note_down, PRESSED);
+				func(_p2_note_downP, JUST_PRESSED);
+				func(_p2_note_downR, JUST_RELEASED);
+
+			//P1
+
+			case P1_NOTE_UP:
+				func(_p1_note_up, PRESSED);
+				func(_note_upP, JUST_PRESSED);
+				func(_note_upR, JUST_RELEASED);
+			case P1_NOTE_LEFT:
+				func(_p1_note_left, PRESSED);
+				func(_p1_note_leftP, JUST_PRESSED);
+				func(_p1_note_leftR, JUST_RELEASED);
+			case P1_NOTE_RIGHT:
+				func(_p1_note_right, PRESSED);
+				func(_p1_note_rightP, JUST_PRESSED);
+				func(_p1_note_rightR, JUST_RELEASED);
+			case P1_NOTE_DOWN:
+				func(_p1_note_down, PRESSED);
+				func(_p1_note_downP, JUST_PRESSED);
+				func(_p1_note_downR, JUST_RELEASED);
 		}
 	}
 
@@ -653,6 +965,15 @@ class Controls extends FlxActionSet
 				inline bindKeys(Control.BACK, keysMap.get('back'));
 				inline bindKeys(Control.PAUSE, keysMap.get('pause'));
 				inline bindKeys(Control.RESET, keysMap.get('reset'));
+
+				inline bindKeys(Control.P1_NOTE_UP, keysMap.get('p1_note_up'));
+				inline bindKeys(Control.P1_NOTE_DOWN, keysMap.get('p1_note_down'));
+				inline bindKeys(Control.P1_NOTE_LEFT, keysMap.get('p1_note_left'));
+				inline bindKeys(Control.P1_NOTE_RIGHT, keysMap.get('p1_note_right'));
+				inline bindKeys(Control.P2_NOTE_UP, keysMap.get('p2_note_up'));
+				inline bindKeys(Control.P2_NOTE_DOWN, keysMap.get('p2_note_down'));
+				inline bindKeys(Control.P2_NOTE_LEFT, keysMap.get('p2_note_left'));
+				inline bindKeys(Control.P2_NOTE_RIGHT, keysMap.get('p2_note_right'));
 			case Duo(true):
 				inline bindKeys(Control.UI_UP, [W]);
 				inline bindKeys(Control.UI_DOWN, [S]);
@@ -666,6 +987,15 @@ class Controls extends FlxActionSet
 				inline bindKeys(Control.BACK, [H, X]);
 				inline bindKeys(Control.PAUSE, [ONE]);
 				inline bindKeys(Control.RESET, [R]);
+
+				inline bindKeys(Control.P1_NOTE_UP, [W]);
+				inline bindKeys(Control.P1_NOTE_DOWN, [S]);
+				inline bindKeys(Control.P1_NOTE_LEFT, [A]);
+				inline bindKeys(Control.P1_NOTE_RIGHT, [D]);
+				inline bindKeys(Control.P2_NOTE_UP, [I]);
+				inline bindKeys(Control.P2_NOTE_DOWN, [K]);
+				inline bindKeys(Control.P2_NOTE_LEFT, [J]);
+				inline bindKeys(Control.P2_NOTE_RIGHT, [L]);
 			case Duo(false):
 				inline bindKeys(Control.UI_UP, [FlxKey.UP]);
 				inline bindKeys(Control.UI_DOWN, [FlxKey.DOWN]);
@@ -679,6 +1009,15 @@ class Controls extends FlxActionSet
 				inline bindKeys(Control.BACK, [P]);
 				inline bindKeys(Control.PAUSE, [ENTER]);
 				inline bindKeys(Control.RESET, [BACKSPACE]);
+
+				inline bindKeys(Control.P1_NOTE_UP, [W]);
+				inline bindKeys(Control.P1_NOTE_DOWN, [S]);
+				inline bindKeys(Control.P1_NOTE_LEFT, [A]);
+				inline bindKeys(Control.P1_NOTE_RIGHT, [D]);
+				inline bindKeys(Control.P2_NOTE_UP, [I]);
+				inline bindKeys(Control.P2_NOTE_DOWN, [K]);
+				inline bindKeys(Control.P2_NOTE_LEFT, [J]);
+				inline bindKeys(Control.P2_NOTE_RIGHT, [L]);
 			case None: // nothing
 			case Custom: // nothing
 		}
@@ -698,6 +1037,15 @@ class Controls extends FlxActionSet
 				bindKeys(Control.BACK, [BACKSPACE, ESCAPE]);
 				bindKeys(Control.PAUSE, [P, ENTER, ESCAPE]);
 				bindKeys(Control.RESET, [R]);
+
+				bindKeys(Control.P1_NOTE_UP, [W]);
+				bindKeys(Control.P1_NOTE_DOWN, [S]);
+				bindKeys(Control.P1_NOTE_LEFT, [A]);
+				bindKeys(Control.P1_NOTE_RIGHT, [D]);
+				bindKeys(Control.P2_NOTE_UP, [I]);
+				bindKeys(Control.P2_NOTE_DOWN, [K]);
+				bindKeys(Control.P2_NOTE_LEFT, [J]);
+				bindKeys(Control.P2_NOTE_RIGHT, [L]);
 			case Duo(true):
 				bindKeys(Control.UI_UP, [W]);
 				bindKeys(Control.UI_DOWN, [S]);
@@ -711,6 +1059,15 @@ class Controls extends FlxActionSet
 				bindKeys(Control.BACK, [H, X]);
 				bindKeys(Control.PAUSE, [ONE]);
 				bindKeys(Control.RESET, [R]);
+
+				bindKeys(Control.P1_NOTE_UP, [W]);
+				bindKeys(Control.P1_NOTE_DOWN, [S]);
+				bindKeys(Control.P1_NOTE_LEFT, [A]);
+				bindKeys(Control.P1_NOTE_RIGHT, [D]);
+				bindKeys(Control.P2_NOTE_UP, [I]);
+				bindKeys(Control.P2_NOTE_DOWN, [K]);
+				bindKeys(Control.P2_NOTE_LEFT, [J]);
+				bindKeys(Control.P2_NOTE_RIGHT, [L]);
 			case Duo(false):
 				bindKeys(Control.UI_UP, [FlxKey.UP]);
 				bindKeys(Control.UI_DOWN, [FlxKey.DOWN]);
@@ -724,6 +1081,15 @@ class Controls extends FlxActionSet
 				bindKeys(Control.BACK, [P]);
 				bindKeys(Control.PAUSE, [ENTER]);
 				bindKeys(Control.RESET, [BACKSPACE]);
+				
+				bindKeys(Control.P1_NOTE_UP, [W]);
+				bindKeys(Control.P1_NOTE_DOWN, [S]);
+				bindKeys(Control.P1_NOTE_LEFT, [A]);
+				bindKeys(Control.P1_NOTE_RIGHT, [D]);
+				bindKeys(Control.P2_NOTE_UP, [I]);
+				bindKeys(Control.P2_NOTE_DOWN, [K]);
+				bindKeys(Control.P2_NOTE_LEFT, [J]);
+				bindKeys(Control.P2_NOTE_RIGHT, [L]);
 			case None: // nothing
 			case Custom: // nothing
 		}
@@ -800,6 +1166,17 @@ class Controls extends FlxActionSet
 			Control.NOTE_DOWN => [DPAD_DOWN, LEFT_STICK_DIGITAL_DOWN],
 			Control.NOTE_LEFT => [DPAD_LEFT, LEFT_STICK_DIGITAL_LEFT],
 			Control.NOTE_RIGHT => [DPAD_RIGHT, LEFT_STICK_DIGITAL_RIGHT],
+
+			//P1
+			Control.P1_NOTE_UP => [LEFT_STICK_DIGITAL_UP],
+			Control.P1_NOTE_DOWN => [LEFT_STICK_DIGITAL_DOWN],
+			Control.P1_NOTE_LEFT => [LEFT_STICK_DIGITAL_LEFT],
+			Control.P1_NOTE_RIGHT => [LEFT_STICK_DIGITAL_RIGHT],
+			//P2
+			Control.P2_NOTE_UP => [RIGHT_STICK_DIGITAL_UP],
+			Control.P2_NOTE_DOWN => [RIGHT_STICK_DIGITAL_DOWN],
+			Control.P2_NOTE_LEFT => [RIGHT_STICK_DIGITAL_LEFT],
+			Control.P2_NOTE_RIGHT => [RIGHT_STICK_DIGITAL_RIGHT],
 			Control.PAUSE => [START],
 			Control.RESET => [8]
 		]);
@@ -816,6 +1193,17 @@ class Controls extends FlxActionSet
 			Control.NOTE_DOWN => [DPAD_DOWN, LEFT_STICK_DIGITAL_DOWN, RIGHT_STICK_DIGITAL_DOWN],
 			Control.NOTE_LEFT => [DPAD_LEFT, LEFT_STICK_DIGITAL_LEFT, RIGHT_STICK_DIGITAL_LEFT],
 			Control.NOTE_RIGHT => [DPAD_RIGHT, LEFT_STICK_DIGITAL_RIGHT, RIGHT_STICK_DIGITAL_RIGHT],
+
+			//P1
+			Control.P1_NOTE_UP => [LEFT_STICK_DIGITAL_UP],
+			Control.P1_NOTE_DOWN => [LEFT_STICK_DIGITAL_DOWN],
+			Control.P1_NOTE_LEFT => [LEFT_STICK_DIGITAL_LEFT],
+			Control.P1_NOTE_RIGHT => [LEFT_STICK_DIGITAL_RIGHT],
+			//P2
+			Control.P2_NOTE_UP => [RIGHT_STICK_DIGITAL_UP],
+			Control.P2_NOTE_DOWN => [RIGHT_STICK_DIGITAL_DOWN],
+			Control.P2_NOTE_LEFT => [RIGHT_STICK_DIGITAL_LEFT],
+			Control.P2_NOTE_RIGHT => [RIGHT_STICK_DIGITAL_RIGHT],
 			Control.PAUSE => [START],
 			Control.RESET => [8],
 		]);
