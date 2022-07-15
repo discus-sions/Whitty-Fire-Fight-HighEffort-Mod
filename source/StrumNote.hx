@@ -36,6 +36,7 @@ class StrumNote extends FlxSprite
 		this.noteData = leData;
 		this.sY = y;
 		super(x, y);
+		trace(PlayState.SONG.arrowSkin);
 
 		switch (PlayState.SONG.arrowSkin)
 				{
@@ -55,7 +56,7 @@ class StrumNote extends FlxSprite
 						updateHitbox();
 						antialiasing = false;
 	
-						switch (Math.abs(noteData))
+						switch (Math.abs(leData))
 						{
 							case 2:
 								x += Note.swagWidth * 2;
@@ -119,7 +120,7 @@ class StrumNote extends FlxSprite
 						antialiasing = true;
 						setGraphicSize(Std.int(width * 0.7));
 	
-						switch (Math.abs(noteData))
+						switch (Math.abs(leData))
 						{
 							case 2:
 								x += Note.swagWidth * 2;
@@ -182,7 +183,7 @@ class StrumNote extends FlxSprite
 							antialiasing = true;
 							setGraphicSize(Std.int(width * 0.7));
 	
-							switch (Math.abs(noteData))
+							switch (Math.abs(leData))
 							{
 								case 2:
 									x += Note.swagWidth * 2;
@@ -243,7 +244,7 @@ class StrumNote extends FlxSprite
 							updateHitbox();
 							antialiasing = false;
 	
-							switch (Math.abs(noteData))
+							switch (Math.abs(leData))
 							{
 								case 2:
 									x += Note.swagWidth * 2;
@@ -306,7 +307,7 @@ class StrumNote extends FlxSprite
 							antialiasing = true;
 							setGraphicSize(Std.int(width * 0.7));
 	
-							switch (Math.abs(noteData))
+							switch (Math.abs(leData))
 							{
 								case 2:
 									x += Note.swagWidth * 2;
