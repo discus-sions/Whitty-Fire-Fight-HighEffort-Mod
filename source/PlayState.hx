@@ -2777,7 +2777,7 @@ class PlayState extends MusicBeatState
 	
 					if(ClientPrefs.keSustains && daNote.isSustainNote && daNote.wasGoodHit) doKill = true;
 	
-					if (doKill)
+					if (doKill && daNote.mustPress)
 					{
 						if (daNote.mustPress && !cpuControlled &&!daNote.ignoreNote && !endingSong && (daNote.tooLate || !daNote.wasGoodHit)) {
 							noteMiss(daNote);
