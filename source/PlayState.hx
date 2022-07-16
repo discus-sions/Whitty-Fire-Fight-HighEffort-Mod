@@ -2884,7 +2884,7 @@ class PlayState extends MusicBeatState
 							}
 						}
 
-						if (daNote.onOpponetSide && !daNote.wasGoodHit && daNote.hitByOpponent && !daNote.ignoreNote)
+						if (daNote.onOpponetSide && !daNote.wasGoodHit && !daNote.ignoreNote)
 						{
 							dadNoteMiss(daNote);
 		
@@ -2914,7 +2914,7 @@ class PlayState extends MusicBeatState
 		
 						if(ClientPrefs.keSustains && daNote.isSustainNote && daNote.wasGoodHit && daNote.onOpponetSide) doKill = true;
 		
-						if (doKill)
+						if (doKill && daNote.onOpponetSide)
 						{
 							if (daNote.onOpponetSide && !cpuControlled &&!daNote.ignoreNote && !endingSong && (daNote.tooLate || !daNote.wasGoodHit)) {
 								dadNoteMiss(daNote);
